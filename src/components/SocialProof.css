@@ -1,0 +1,73 @@
+.social-proof-section {
+  background-color: var(--text-dark);
+  color: white;
+  padding: 8rem 0;
+  margin-top: 4rem;
+}
+
+.social-proof-title {
+  text-align: center;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  margin-bottom: 4rem;
+  color: white;
+  letter-spacing: -1.5px;
+}
+
+.proof-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+.proof-card {
+  padding: 3rem;
+  border-radius: 24px;
+}
+
+.proof-card.dark {
+  background-color: #2a2a2a;
+}
+
+.proof-card.light {
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+}
+
+.proof-card h3 {
+  font-family: var(--font-sans);
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.proof-card p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+.quote-section {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quote-section blockquote {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.quote-author {
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  color: var(--accent-purple);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
