@@ -17,7 +17,7 @@ export const Developers: React.FC = () => {
         >
           <div className="developer-image-wrapper">
             {/* Note: Place your first image as nithesh.jpg in the public/ folder */}
-            <img src="/nithesh.jpg" alt="Nithesh Kumar T" onError={(e) => { e.currentTarget.src = 'https://ui-avatars.com/api/?name=Nithesh+Kumar&background=ebd1fc&color=1a1a1a&size=150'; }} />
+            <img style={{ objectPosition: 'top' }} src="/nithesh.jpg" alt="Nithesh Kumar T" onError={(e) => { e.currentTarget.src = 'https://ui-avatars.com/api/?name=Nithesh+Kumar&background=ebd1fc&color=1a1a1a&size=150'; }} />
           </div>
           <div className="developer-info">
             <h3>Nithesh Kumar T</h3>

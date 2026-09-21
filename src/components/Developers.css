@@ -88,3 +88,23 @@
   transform: translateY(0);
   color: var(--banner-green);
 }
+
+@media (max-width: 600px) {
+  .developers-grid {
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+  }
+
+  .developer-image-wrapper {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .developer-info h3 {
+    font-size: 1rem;
+  }
+  
+  .linkedin-link {
+    font-size: 0.8rem;
+  }
+}
