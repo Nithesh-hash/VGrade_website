@@ -18,7 +18,7 @@
 }
 
 .footer-logo {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   font-size: 2rem;
   margin-bottom: 1rem;
   letter-spacing: -1px;
